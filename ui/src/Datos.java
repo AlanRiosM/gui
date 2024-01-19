@@ -31,7 +31,7 @@ public class Datos extends JFrame {
                 String valor1 = Datos.this.text1.getText();
                 String valor2 = Datos.this.text2.getText();
                 float numeroFloat1 = Float.parseFloat(valor1);
-                float numeroFloat2 = Float.parseFloat(valor1);
+                float numeroFloat2 = Float.parseFloat(valor2);
                 float total = numeroFloat1 + numeroFloat2;
                 JOptionPane.showMessageDialog(null, total);
             }
